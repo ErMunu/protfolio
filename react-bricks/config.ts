@@ -10,7 +10,7 @@ const config: types.ReactBricksConfig = {
   apiKey: process.env.API_KEY,
   pageTypes,
   bricks,
-  logo: '/logo.svg',
+  logo: '/master-muntazir-logo.png',
   previewPath: '/preview',
   // contentClassName: 'content', // Defined dynamically
   // isDarkColorMode: ...,        // in _app.tsx
