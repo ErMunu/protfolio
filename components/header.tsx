@@ -25,34 +25,22 @@ const Header: React.FC = () => (
 
                     <div className="sm:ml-8 flex space-x-5 text-center">
                         <Link href="https://github.com/ermunu" prefetch={false}>
-                            <a className="py-2 px-5 rounded text-white font-medium bg-gray-500 hover:bg-gray-600 hover:shadow-lg transition duration-200">
-                                G
-                            </a>
+                            <a target={'_blank'}><img className="w-10 hover:bg-gray-300 hover:shadow-lg transition duration-200" src="https://cdn.cdnlogo.com/logos/g/69/github-icon.svg" /></a>
                         </Link>
-                        <Link href="https://www.linkedin.com/in/ErMunu/" prefetch={false}>
-                            <a className="py-2 px-5 rounded text-white font-medium bg-blue-500 hover:bg-blue-600 hover:shadow-lg transition duration-200">
-                                L
-                            </a>
+                        <Link href="https://www.linkedin.com/in/ErMunu/" target={'_blank'} prefetch={false}>
+                            <a target={'_blank'}><img className="w-10 hover:bg-blue-200 hover:shadow-lg transition duration-200" src="https://cdn.cdnlogo.com/logos/l/78/linkedin-icon.svg" /></a>
                         </Link>
-                        <Link href="https://twitter.com/ErMunu" prefetch={false}>
-                            <a className="py-2 px-5 rounded text-white font-medium bg-blue-300 hover:bg-blue-400 hover:shadow-lg transition duration-200">
-                                T
-                            </a>
+                        <Link href="https://twitter.com/ErMunu" target={'_blank'} prefetch={false}>
+                            <a target={'_blank'}><img className="w-10 hover:bg-blue-200 hover:shadow-lg transition duration-200" src="https://cdn.cdnlogo.com/logos/t/96/twitter-icon.svg" /></a>
                         </Link>
-                        <Link href="https://www.youtube.com/channel/UCH5DZb07uKjngrlzQPwd0ag" prefetch={false}>
-                            <a className="py-2 px-5 rounded text-white font-medium bg-red-600 hover:bg-blue-700 hover:shadow-lg transition duration-200">
-                                Y
-                            </a>
+                        <Link href="https://www.youtube.com/channel/UCH5DZb07uKjngrlzQPwd0ag" target={'_blank'} prefetch={false}>
+                            <a target={'_blank'}><img className="w-10 hover:bg-red-200 hover:shadow-lg transition duration-200" src="https://img.icons8.com/color/240/000000/youtube--v1.png" /></a>
                         </Link>
-                        <Link href="https://www.facebook.com/ErMunu/" prefetch={false}>
-                            <a className="py-2 px-5 rounded text-white font-medium bg-blue-400 hover:bg-blue-500 hover:shadow-lg transition duration-200">
-                                F
-                            </a>
+                        <Link href="https://www.facebook.com/ErMunu/" target={'_blank'} prefetch={false}>
+                            <a target={'_blank'}><img className="w-10 hover:bg-blue-200 hover:shadow-lg transition duration-200" src="https://cdn.cdnlogo.com/logos/f/83/facebook.svg" /></a>
                         </Link>
-                        <Link href="https://www.instagram.com/ErMunu/" prefetch={false}>
-                            <a className="py-2 px-5 rounded text-white font-medium bg-pink-500 hover:bg-pink-600 hover:shadow-lg transition duration-200">
-                                I
-                            </a>
+                        <Link href="https://www.instagram.com/ErMunu/" target={'_blank'} prefetch={false}>
+                            <a target={'_blank'}><img className="w-10 hover:bg-pink-200 hover:shadow-lg transition duration-200" src="https://cdn.cdnlogo.com/logos/i/4/instagram.svg" /></a>
                         </Link>
                     </div>
                 </div>

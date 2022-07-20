@@ -18,7 +18,7 @@ const BlogList: React.FC<HomeProps> = ({ tags, posts, error }) => {
     <Layout>
       <Head>
         <title>Master Muntazir | Blog</title>
-        <meta name="description" content="React Bricks blog starter" />
+        <meta name="description" content="Muntazir Ahmad is full stack web developer having 5+ years on hands on experience in frontend and backend technologies like PHP, JavaScript, Node.js, Symfony, HTML, CSS, MySQL, MongoDB, etc." />
       </Head>
 
       <h1 className="text-center text-4xl sm:text-6xl lg:text-7xl leading-none font-black tracking-tight text-gray-900 pb-4 mt-10 sm:mt-12 mb-4">
